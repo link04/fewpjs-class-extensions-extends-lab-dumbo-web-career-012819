@@ -1,4 +1,5 @@
 class Polygon {
+<<<<<<< HEAD
 
   constructor(integers) {
     this.integers = integers;
@@ -13,6 +14,7 @@ class Polygon {
   }
 
 }
+<<<<<<< HEAD
 
 class Triangle extends Polygon {
 
@@ -36,3 +38,17 @@ class Triangle extends Polygon {
       return this.integers[0] * this.integers[0];
     }
   }
+=======
+=======
+ 
+  constructor(integers){
+    this.integers = integers;
+  }
+  
+  get countSides(){
+    this.integers.length;
+  }
+  
+}
+>>>>>>> 75943ab93ef385554d09fac5eca599830cdea181
+>>>>>>> 75dbbf36febf77e2063b03e99a1d81a915525e40
